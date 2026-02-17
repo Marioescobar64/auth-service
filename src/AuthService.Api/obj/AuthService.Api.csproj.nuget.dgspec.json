@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\2022471\\KinalSport\\auth-service\\src\\AuthService.Api\\AuthService.Api.csproj": {}
+    "C:\\2022471\\auth-service\\src\\AuthService.Api\\AuthService.Api.csproj": {}
   },
   "projects": {
-    "C:\\2022471\\KinalSport\\auth-service\\src\\AuthService.Api\\AuthService.Api.csproj": {
+    "C:\\2022471\\auth-service\\src\\AuthService.Api\\AuthService.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\2022471\\KinalSport\\auth-service\\src\\AuthService.Api\\AuthService.Api.csproj",
+        "projectUniqueName": "C:\\2022471\\auth-service\\src\\AuthService.Api\\AuthService.Api.csproj",
         "projectName": "AuthService.Api",
-        "projectPath": "C:\\2022471\\KinalSport\\auth-service\\src\\AuthService.Api\\AuthService.Api.csproj",
+        "projectPath": "C:\\2022471\\auth-service\\src\\AuthService.Api\\AuthService.Api.csproj",
         "packagesPath": "C:\\Users\\Informatica\\.nuget\\packages\\",
-        "outputPath": "C:\\2022471\\KinalSport\\auth-service\\src\\AuthService.Api\\obj\\",
+        "outputPath": "C:\\2022471\\auth-service\\src\\AuthService.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Informatica\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,14 +26,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\2022471\\KinalSport\\auth-service\\src\\AuthService.Application\\AuthService.Application.csproj": {
-                "projectPath": "C:\\2022471\\KinalSport\\auth-service\\src\\AuthService.Application\\AuthService.Application.csproj"
+              "C:\\2022471\\auth-service\\src\\AuthService.Application\\AuthService.Application.csproj": {
+                "projectPath": "C:\\2022471\\auth-service\\src\\AuthService.Application\\AuthService.Application.csproj"
               },
-              "C:\\2022471\\KinalSport\\auth-service\\src\\AuthService.Domain\\AuthService.Domain.csproj": {
-                "projectPath": "C:\\2022471\\KinalSport\\auth-service\\src\\AuthService.Domain\\AuthService.Domain.csproj"
-              },
-              "C:\\2022471\\KinalSport\\auth-service\\src\\AuthService.Persistence\\AuthService.Persistence.csproj": {
-                "projectPath": "C:\\2022471\\KinalSport\\auth-service\\src\\AuthService.Persistence\\AuthService.Persistence.csproj"
+              "C:\\2022471\\auth-service\\src\\AuthService.Persistence\\AuthService.Persistence.csproj": {
+                "projectPath": "C:\\2022471\\auth-service\\src\\AuthService.Persistence\\AuthService.Persistence.csproj"
               }
             }
           }
@@ -53,25 +50,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "FluentValidation": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[12.1.1, )"
+              "version": "[8.0.20, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.22, )"
-            },
-            "Microsoft.AspNetcore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[8.0.20, )"
-            },
-            "Microsoft.Extensions.Configuration": {
-              "target": "Package",
-              "version": "[10.0.2, )"
-            },
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[10.0.2, )"
             },
             "NetEscapades.AspNetCore.SecurityHeaders": {
               "target": "Package",
@@ -105,18 +90,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\dotnet\\sdk\\8.0.418/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\2022471\\KinalSport\\auth-service\\src\\AuthService.Application\\AuthService.Application.csproj": {
+    "C:\\2022471\\auth-service\\src\\AuthService.Application\\AuthService.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\2022471\\KinalSport\\auth-service\\src\\AuthService.Application\\AuthService.Application.csproj",
+        "projectUniqueName": "C:\\2022471\\auth-service\\src\\AuthService.Application\\AuthService.Application.csproj",
         "projectName": "AuthService.Application",
-        "projectPath": "C:\\2022471\\KinalSport\\auth-service\\src\\AuthService.Application\\AuthService.Application.csproj",
+        "projectPath": "C:\\2022471\\auth-service\\src\\AuthService.Application\\AuthService.Application.csproj",
         "packagesPath": "C:\\Users\\Informatica\\.nuget\\packages\\",
-        "outputPath": "C:\\2022471\\KinalSport\\auth-service\\src\\AuthService.Application\\obj\\",
+        "outputPath": "C:\\2022471\\auth-service\\src\\AuthService.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Informatica\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -131,8 +116,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\2022471\\KinalSport\\auth-service\\src\\AuthService.Domain\\AuthService.Domain.csproj": {
-                "projectPath": "C:\\2022471\\KinalSport\\auth-service\\src\\AuthService.Domain\\AuthService.Domain.csproj"
+              "C:\\2022471\\auth-service\\src\\AuthService.Domain\\AuthService.Domain.csproj": {
+                "projectPath": "C:\\2022471\\auth-service\\src\\AuthService.Domain\\AuthService.Domain.csproj"
               }
             }
           }
@@ -167,18 +152,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\dotnet\\sdk\\8.0.418/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\2022471\\KinalSport\\auth-service\\src\\AuthService.Domain\\AuthService.Domain.csproj": {
+    "C:\\2022471\\auth-service\\src\\AuthService.Domain\\AuthService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\2022471\\KinalSport\\auth-service\\src\\AuthService.Domain\\AuthService.Domain.csproj",
+        "projectUniqueName": "C:\\2022471\\auth-service\\src\\AuthService.Domain\\AuthService.Domain.csproj",
         "projectName": "AuthService.Domain",
-        "projectPath": "C:\\2022471\\KinalSport\\auth-service\\src\\AuthService.Domain\\AuthService.Domain.csproj",
+        "projectPath": "C:\\2022471\\auth-service\\src\\AuthService.Domain\\AuthService.Domain.csproj",
         "packagesPath": "C:\\Users\\Informatica\\.nuget\\packages\\",
-        "outputPath": "C:\\2022471\\KinalSport\\auth-service\\src\\AuthService.Domain\\obj\\",
+        "outputPath": "C:\\2022471\\auth-service\\src\\AuthService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Informatica\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -231,18 +216,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\dotnet\\sdk\\8.0.418/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\2022471\\KinalSport\\auth-service\\src\\AuthService.Persistence\\AuthService.Persistence.csproj": {
+    "C:\\2022471\\auth-service\\src\\AuthService.Persistence\\AuthService.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\2022471\\KinalSport\\auth-service\\src\\AuthService.Persistence\\AuthService.Persistence.csproj",
+        "projectUniqueName": "C:\\2022471\\auth-service\\src\\AuthService.Persistence\\AuthService.Persistence.csproj",
         "projectName": "AuthService.Persistence",
-        "projectPath": "C:\\2022471\\KinalSport\\auth-service\\src\\AuthService.Persistence\\AuthService.Persistence.csproj",
+        "projectPath": "C:\\2022471\\auth-service\\src\\AuthService.Persistence\\AuthService.Persistence.csproj",
         "packagesPath": "C:\\Users\\Informatica\\.nuget\\packages\\",
-        "outputPath": "C:\\2022471\\KinalSport\\auth-service\\src\\AuthService.Persistence\\obj\\",
+        "outputPath": "C:\\2022471\\auth-service\\src\\AuthService.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Informatica\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -257,8 +242,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\2022471\\KinalSport\\auth-service\\src\\AuthService.Domain\\AuthService.Domain.csproj": {
-                "projectPath": "C:\\2022471\\KinalSport\\auth-service\\src\\AuthService.Domain\\AuthService.Domain.csproj"
+              "C:\\2022471\\auth-service\\src\\AuthService.Domain\\AuthService.Domain.csproj": {
+                "projectPath": "C:\\2022471\\auth-service\\src\\AuthService.Domain\\AuthService.Domain.csproj"
               }
             }
           }
@@ -278,10 +263,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "EFCore.NamingConventions": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -290,7 +271,7 @@
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[8.0.416, )"
+              "version": "[8.0.4, )"
             }
           },
           "imports": [
@@ -309,7 +290,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\dotnet\\sdk\\8.0.418/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

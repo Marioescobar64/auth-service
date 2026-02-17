@@ -1,4 +1,4 @@
-﻿namespace AuthService.Persistence;
+﻿namespace AuthServer.Persistence;
 
 public class Class1
 {

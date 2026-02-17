@@ -1,28 +1,30 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using AuthService.Domain.Enums;
 
-namespace AuthService.Domain.entitis;
+namespace AuthService.Domain.Entities;
 
-public class roles
+public class Role
 {
-    [key]
-    [MaxLength(15)]
-    public string Id { get; set; }
+    [Key]
+    [MaxLength(16)]
+    public string Id { get; set;}
+
+    [Required]
+    [MaxLength(50)]
+    public string Name { get; set;}
 
     [Required]
     [MaxLength(255)]
-    public string Name { get; set; }
+    public string Description { get; set;}
 
-    [Required]
-    [MaxLength(255)]
-    public string Description { get; set; }
-
-    // Realaciones con UserRole
-    public ICollection <UserRole> UserRoles { get; set; }
-
+    // Relaciones con UserRole
+    public ICollection<UserRole> UserRoles { get; set;}
 }
 
 /*
-
+Vista de la tabla a modo SQL
+Roles
 +--------------+--------------+------------------+
 | Id           | Name         | Description      |
 +--------------+--------------+------------------+
@@ -30,5 +32,4 @@ public class roles
 | USER         | User         | Usuario normal   |
 | GUEST        | Guest        | Invitado         |
 +--------------+--------------+------------------+
-
 */
