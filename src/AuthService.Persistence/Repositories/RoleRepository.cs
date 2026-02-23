@@ -4,6 +4,7 @@ using AuthService.Domain.Interfaces;
 using AuthService.Persistence.Data;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace AuthService.Persistence.Repositories
 {
     public class RoleRepository (ApplicationDbContext context) : IRoleRepository
