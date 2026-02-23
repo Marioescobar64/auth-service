@@ -41,10 +41,10 @@ public class User
 
     // Relaciones de navegacion solo dentro del codigo
     // Esto no altera la base de datos
-    public UserProfile profile {get; set;} = null!; // El ! indica que la propiedad no sera null
-    public ICollection<UserRole> UserRoles {get; set;} = []; // Indica que la propiedad es una coleccion de UserRole
+    public UserProfile UserProfile  {get; set;} = null!; // El ! indica que la propiedad no sera null
+    public ICollection<UserRole> UserRoles {get; set;} = = new List<UserRole>(); ; // Indica que la propiedad es una coleccion de UserRole
     public UserEmail UserEmail {get; set;} = null!;
-    public UserPasswordReset PasswordReset {get; set;} = null!;
+    public UserPasswordReset UserPasswordReset  {get; set;} = null!;
 }
 
 /*
