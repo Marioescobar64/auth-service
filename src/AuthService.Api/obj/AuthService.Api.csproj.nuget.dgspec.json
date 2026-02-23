@@ -242,6 +242,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\2022471\\auth-service\\src\\AuthService.Application\\AuthService.Application.csproj": {
+                "projectPath": "C:\\2022471\\auth-service\\src\\AuthService.Application\\AuthService.Application.csproj"
+              },
               "C:\\2022471\\auth-service\\src\\AuthService.Domain\\AuthService.Domain.csproj": {
                 "projectPath": "C:\\2022471\\auth-service\\src\\AuthService.Domain\\AuthService.Domain.csproj"
               }
