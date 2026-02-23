@@ -50,7 +50,7 @@ public class ApplicationDbContext : DbContext
 
 
             entity.HasIndex(e => e.Email).IsUnique();
-            entity.HasIndex(e => e.UserName).IsUnique();
+            entity.HasIndex(e => e.Username).IsUnique();
 
             entity.HasOne(e => e.UserProfile)
                 .WithOne(p => p.User)

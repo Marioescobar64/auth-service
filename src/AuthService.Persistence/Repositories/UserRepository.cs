@@ -130,7 +130,7 @@ public async Task<User> CreateAsync(User user)
 {
     context.Users.Add(user);
     await context.SaveChangesAsync();
-    return await GetByIdAsync(user.Id);
+    return await GetByIdAsync(user.Id); // advertencia
 }
 
 
