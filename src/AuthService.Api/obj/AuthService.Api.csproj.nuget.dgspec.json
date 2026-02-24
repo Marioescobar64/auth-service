@@ -62,6 +62,10 @@
               "target": "Package",
               "version": "[8.0.20, )"
             },
+            "Mimekit": {
+              "target": "Package",
+              "version": "[4.15.0, )"
+            },
             "NetEscapades.AspNetCore.SecurityHeaders": {
               "target": "Package",
               "version": "[1.2.0, )"
@@ -145,6 +149,10 @@
               "target": "Package",
               "version": "[12.1.1, )"
             },
+            "Mailkit": {
+              "target": "Package",
+              "version": "[4.15.0, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[10.0.2, )"
@@ -152,6 +160,14 @@
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[10.0.2, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.3, )"
+            },
+            "Mimekit": {
+              "target": "Package",
+              "version": "[4.15.0, )"
             }
           },
           "imports": [
