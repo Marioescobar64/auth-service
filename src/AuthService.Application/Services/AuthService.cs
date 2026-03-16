@@ -3,6 +3,7 @@ using AuthService.Application.Interfaces;
 using AuthService.Application.Exceptions;
 using AuthService.Application.Extensions;
 using AuthService.Application.Validators;
+using AuthService.Application.Services;  
 using AuthService.Domain.Constants;
 using AuthService.Domain.Entities;
 using AuthService.Domain.Interfaces;
@@ -10,6 +11,7 @@ using AuthService.Domain.Enums;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using AuthService.Application.DTOs.Email;
+
 
 namespace AuthService.Application.Services;
 

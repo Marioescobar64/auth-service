@@ -81,7 +81,7 @@
             },
             "Mimekit": {
               "target": "Package",
-              "version": "[4.15.0, )"
+              "version": "[4.15.1, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",

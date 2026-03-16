@@ -13,7 +13,7 @@
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.20",
           "Microsoft.AspNetCore.OpenApi": "8.0.22",
           "Microsoft.EntityFrameworkCore.Design": "8.0.20",
-          "MimeKit": "4.15.0",
+          "MimeKit": "4.15.1",
           "NetEscapades.AspNetCore.SecurityHeaders": "1.2.0",
           "Serilog.AspNetCore": "9.0.0",
           "Swashbuckle.AspNetCore": "9.0.4"
@@ -94,7 +94,7 @@
       },
       "MailKit/4.15.0": {
         "dependencies": {
-          "MimeKit": "4.15.0",
+          "MimeKit": "4.15.1",
           "System.Formats.Asn1": "8.0.1"
         },
         "runtime": {
@@ -651,7 +651,7 @@
           }
         }
       },
-      "MimeKit/4.15.0": {
+      "MimeKit/4.15.1": {
         "dependencies": {
           "BouncyCastle.Cryptography": "2.6.2",
           "System.Security.Cryptography.Pkcs": "8.0.1"
@@ -659,7 +659,7 @@
         "runtime": {
           "lib/net8.0/MimeKit.dll": {
             "assemblyVersion": "4.15.0.0",
-            "fileVersion": "4.15.0.0"
+            "fileVersion": "4.15.1.0"
           }
         }
       },
@@ -1419,7 +1419,7 @@
           "Microsoft.Extensions.DependencyInjection": "10.0.2",
           "Microsoft.Extensions.Logging.Abstractions": "10.0.3",
           "Microsoft.IdentityModel.Tokens": "8.16.0",
-          "MimeKit": "4.15.0",
+          "MimeKit": "4.15.1",
           "System.IdentityModel.Tokens.Jwt": "8.16.0"
         },
         "runtime": {
@@ -1784,12 +1784,12 @@
       "path": "microsoft.openapi/1.6.25",
       "hashPath": "microsoft.openapi.1.6.25.nupkg.sha512"
     },
-    "MimeKit/4.15.0": {
+    "MimeKit/4.15.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+KVUJwHIp1aVPyVjcadAH1M9QkAwLflLujzySAS4N//AqSYjD+wMo2a3PkYu5XDibSuhlAg5sIh/DVNwVNGiVw==",
-      "path": "mimekit/4.15.0",
-      "hashPath": "mimekit.4.15.0.nupkg.sha512"
+      "sha512": "sha512-cxCcQhD0zhboFoG136jJuJtQjNRDJ+BxBm3f2vWn+53bff/CRo+K1mAkWjsW4Wuyy5O22F40MdMG2nRzQu1cJw==",
+      "path": "mimekit/4.15.1",
+      "hashPath": "mimekit.4.15.1.nupkg.sha512"
     },
     "Mono.TextTemplating/2.2.1": {
       "type": "package",

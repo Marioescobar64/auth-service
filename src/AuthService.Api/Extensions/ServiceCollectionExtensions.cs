@@ -6,6 +6,7 @@ using AuthService.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore; 
 
 
+
 namespace AuthService.Api.Extensions;
 
 public static class ServiceCollectionExtensions

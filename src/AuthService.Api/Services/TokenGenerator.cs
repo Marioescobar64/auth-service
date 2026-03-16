@@ -1,31 +1,28 @@
-using System;
 using System.Security.Cryptography;
 
-namespace AuthService.Application.Services
+namespace AuthService.Application.Services;
+
+public static class TokenGenerator
 {
-    public static class TokenGenerator
+    public static string GenerateEmailVerificationToken()
     {
-        public static string GenerateEmailVerificationToken()
-        {
-            return GenerateSecureToken(32);
-        }
+        return GenerateSecureToken(32);
+    }
 
-        public static string GeneratePasswordResetToken()
-        {
-            return GenerateSecureToken(32);
-        }
+    public static string GeneratePasswordResetToken()
+    {
+        return GenerateSecureToken(32);
+    }
 
-        private static string GenerateSecureToken(int length)
-        {
-            using var rng = RandomNumberGenerator.Create();
+    private static string GenerateSecureToken(int length)
+    {
+        using var rng = RandomNumberGenerator.Create();
+        var bytes = new byte[length];
+        rng.GetBytes(bytes);
 
-            var bytes = new byte[length];
-            rng.GetBytes(bytes);
-
-            return Convert.ToBase64String(bytes)
-                .Replace("+", "-")
-                .Replace("/", "_")
-                .Replace("=", "");
-        }
+        return Convert.ToBase64String(bytes)
+            .Replace("+", "-")
+            .Replace("/", "_")
+            .Replace("=", "");
     }
 }

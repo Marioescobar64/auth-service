@@ -934,7 +934,7 @@
           }
         }
       },
-      "MimeKit/4.15.0": {
+      "MimeKit/4.15.1": {
         "type": "package",
         "dependencies": {
           "BouncyCastle.Cryptography": "2.6.2",
@@ -2406,7 +2406,7 @@
           "Microsoft.Extensions.DependencyInjection": "10.0.2",
           "Microsoft.Extensions.Logging.Abstractions": "10.0.3",
           "Microsoft.IdentityModel.Tokens": "8.16.0",
-          "Mimekit": "4.15.0",
+          "Mimekit": "4.15.1",
           "System.IdentityModel.Tokens.Jwt": "8.16.0"
         },
         "compile": {
@@ -3938,10 +3938,10 @@
         "microsoft.openapi.nuspec"
       ]
     },
-    "MimeKit/4.15.0": {
-      "sha512": "+KVUJwHIp1aVPyVjcadAH1M9QkAwLflLujzySAS4N//AqSYjD+wMo2a3PkYu5XDibSuhlAg5sIh/DVNwVNGiVw==",
+    "MimeKit/4.15.1": {
+      "sha512": "cxCcQhD0zhboFoG136jJuJtQjNRDJ+BxBm3f2vWn+53bff/CRo+K1mAkWjsW4Wuyy5O22F40MdMG2nRzQu1cJw==",
       "type": "package",
-      "path": "mimekit/4.15.0",
+      "path": "mimekit/4.15.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3973,7 +3973,7 @@
         "lib/netstandard2.1/MimeKit.dll.config",
         "lib/netstandard2.1/MimeKit.pdb",
         "lib/netstandard2.1/MimeKit.xml",
-        "mimekit.4.15.0.nupkg.sha512",
+        "mimekit.4.15.1.nupkg.sha512",
         "mimekit.nuspec"
       ]
     },
@@ -7117,7 +7117,7 @@
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.20",
       "Microsoft.AspNetCore.OpenApi >= 8.0.22",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.20",
-      "Mimekit >= 4.15.0",
+      "Mimekit >= 4.15.1",
       "NetEscapades.AspNetCore.SecurityHeaders >= 1.2.0",
       "Serilog.AspNetCore >= 9.0.0",
       "Swashbuckle.AspNetCore >= 9.0.4"
@@ -7186,7 +7186,7 @@
           },
           "Mimekit": {
             "target": "Package",
-            "version": "[4.15.0, )"
+            "version": "[4.15.1, )"
           },
           "NetEscapades.AspNetCore.SecurityHeaders": {
             "target": "Package",
@@ -7223,17 +7223,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "El paquete \"MimeKit\" 4.15.0 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-g7hc-96xr-gvvx",
-      "libraryId": "MimeKit",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }
