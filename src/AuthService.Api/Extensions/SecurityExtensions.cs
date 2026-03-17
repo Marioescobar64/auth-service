@@ -4,13 +4,13 @@ namespace AuthService.Api.Extensions;
 
 public static class SecurityExtensions
 {
-private static readonly string[] DefaultAllowedOrigins = ["http://localhost:3000", "https://localhost:3001"];
-private static readonly string[] DefaultAdminOrigins = ["https://admin.localhost"];
-private static readonly string[] AllowedHttpMethods = ["GET", "POST", "PUT", "DELETE", "OPTIONS"];
-private static readonly string[] AdminHttpMethods = ["GET", "POST", "PUT", "DELETE"];
-private static readonly string[] AdminAllowedHeaders = ["Content-Type", "Authorization"];
+	private static readonly string[] DefaultAllowedOrigins = ["http://localhost:3000", "https://localhost:3001"];
+    private static readonly string[] DefaultAdminOrigins = ["https://admin.localhost"];
+    private static readonly string[] AllowedHttpMethods = ["GET", "POST", "PUT", "DELETE", "OPTIONS"];
+    private static readonly string[] AdminHttpMethods = ["GET", "POST", "PUT", "DELETE"];
+    private static readonly string[] AdminAllowedHeaders = ["Content-Type", "Authorization"];
 
-    public static IServiceCollection AddSecurityPolicies(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection AddSecurityPolicies(this IServiceCollection services, IConfiguration configuration)
     {
         // Configurar CORS
         services.AddCors(options =>
@@ -100,5 +100,4 @@ private static readonly string[] AdminAllowedHeaders = ["Content-Type", "Authori
 
         return services;
     }
-
 }
