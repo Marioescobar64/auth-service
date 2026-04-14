@@ -139,7 +139,7 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Microsoft.AspNetCore.OpenApi/8.0.22": {
+      "Microsoft.AspNetCore.OpenApi/8.0.21": {
         "type": "package",
         "dependencies": {
           "Microsoft.OpenApi": "1.4.3"
@@ -2629,10 +2629,10 @@
         "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.OpenApi/8.0.22": {
-      "sha512": "NljWP+NNJDu3Uls1OxiIrhOnhRTCdpJNLukJFMrBIPU1FyencrBFpgHiUuv/K5TqDPE7iKaZVreDSHSVhk4QrA==",
+    "Microsoft.AspNetCore.OpenApi/8.0.21": {
+      "sha512": "nSr56STDye1O3zp3MaFpJCjtHkNzcZ39QxevWmevEraoglplXP7G4MS4OgE3J1TxfXg+7x3Ii/tRiQv1MpNc6Q==",
       "type": "package",
-      "path": "microsoft.aspnetcore.openapi/8.0.22",
+      "path": "microsoft.aspnetcore.openapi/8.0.21",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2640,7 +2640,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net8.0/Microsoft.AspNetCore.OpenApi.dll",
         "lib/net8.0/Microsoft.AspNetCore.OpenApi.xml",
-        "microsoft.aspnetcore.openapi.8.0.22.nupkg.sha512",
+        "microsoft.aspnetcore.openapi.8.0.21.nupkg.sha512",
         "microsoft.aspnetcore.openapi.nuspec"
       ]
     },
@@ -7115,9 +7115,8 @@
       "AuthService.Application >= 1.0.0",
       "AuthService.Persistence >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.20",
-      "Microsoft.AspNetCore.OpenApi >= 8.0.22",
+      "Microsoft.AspNetCore.OpenApi >= 8.0.21",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.20",
-      "Mimekit >= 4.15.1",
       "NetEscapades.AspNetCore.SecurityHeaders >= 1.2.0",
       "Serilog.AspNetCore >= 9.0.0",
       "Swashbuckle.AspNetCore >= 9.0.4"
@@ -7178,15 +7177,11 @@
           },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
-            "version": "[8.0.22, )"
+            "version": "[8.0.21, )"
           },
           "Microsoft.EntityFrameworkCore.Design": {
             "target": "Package",
             "version": "[8.0.20, )"
-          },
-          "Mimekit": {
-            "target": "Package",
-            "version": "[4.15.1, )"
           },
           "NetEscapades.AspNetCore.SecurityHeaders": {
             "target": "Package",
